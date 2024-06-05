@@ -14,6 +14,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
 
       home: Splash(),
+
     );
   }
 }
+// class Shakib{
+//   jhdf
+// }
