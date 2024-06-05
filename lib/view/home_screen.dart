@@ -45,6 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           child: Stack(
 
                             children: [
+                              //Text("amr sonar bangla ami tumy valo bashe"),
                               Container(
                                 child: CachedNetworkImage(
                                   imageUrl:data.urlToImage.toString(),
