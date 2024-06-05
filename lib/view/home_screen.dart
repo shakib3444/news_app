@@ -41,7 +41,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       final data = snapshot.data!.articles![index];
                         return Container(
                           margin: EdgeInsets.only(right: 10),
+
                           child: Stack(
+
                             children: [
                               Container(
                                 child: CachedNetworkImage(
